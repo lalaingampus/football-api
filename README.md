@@ -49,7 +49,7 @@ $ go run main.go
 
 These are the endpoints available from the app
 
-### `GET /Team`
+### `GET /team`
 
 Returns list of teams 
 
@@ -89,7 +89,7 @@ Returns list of teams
 
 ---
 
-### `GET /Team/:id`
+### `GET /team/:id`
 
 Returns a team by id
 
@@ -127,7 +127,7 @@ Returns a team by id
 
 ---
 
-### `POST /Team`
+### `POST /team`
 
 Creates a new team and it's players
 
@@ -157,41 +157,6 @@ This request requires body payload, you can find the example below.
 </p>
 </details>
 
-#### Response
-
-The request will return the created data in JSON response like this:
-
-<details><summary>Show example response</summary>
-<p>
-
-```json
-{
-  "meta": {
-    "code": 200
-  },
-  "data": {
-    "id": "5f6a5d6129b2289c40b7444b",
-    "name": "AC Milan 2",
-    "description": "some-description",
-    "location": "Italy",
-    "players": [
-      {
-        "id": "5f6a5d6129b2289c40b74448",
-        "name": "John Doe 1",
-        "nickname": "Lolo",
-        "position": "forward",
-        "created_at": "2020-09-22T20:24:01.872Z"
-      }
-    ],
-    "created_at": "2020-09-22T20:24:01.846Z"
-  }
-}
-```
-
-</p>
-</details>
-
----
 
 ### `GET /players`
 
@@ -254,4 +219,10 @@ Returns a player by id
 
 ---
 
+### `DELETE /team`
+
+Delete all team
 	
+### `DELETE /team/:ID`
+
+Delete team by id
