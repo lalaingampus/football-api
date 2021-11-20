@@ -23,12 +23,12 @@
 #### Routes ⚡
 | Routes | HTTP Methods| Description
 |:------- |:---------------|:--------------
-| /Team     | GET                  | Displays all team & player
-| /Team      | POST               | Creates a team & player
-| /Team      | DELETE            | Deletes all team & player
-|/Team/:id| GET     | Displays a specific team & player
-|/Team/:id| PUT  | Update player & team value
-|/Team/:id| DELETE | Deletes a specific player & team
+| /team     | GET                  | Displays all team & player
+| /team      | POST               | Creates a team & player
+| /team      | DELETE            | Deletes all team & player
+|/team/:id| GET     | Displays a specific team & player
+|/team/:id| PUT  | Update player & team value
+|/team/:id| DELETE | Deletes a specific player & team
 	
 ### Technologies
 Project is created with:
